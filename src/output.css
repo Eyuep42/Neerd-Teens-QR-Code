@@ -593,6 +593,7 @@ video {
 .qr {
   width: 31.25em;
   height: 31.25em;
+  margin-bottom: 3em;
 }
 
 .svg {
