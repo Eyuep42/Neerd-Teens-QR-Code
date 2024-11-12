@@ -14,5 +14,7 @@
 
 .title {
     height: 10em;
+    margin-top: 1em;
     margin-bottom: 5em;
+    padding: 1em;
 }
