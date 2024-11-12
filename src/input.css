@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 .qr {
-    width: 500px;
-    height: 500px;
+    width: 31.25em;
+    height: 31.25em;
 }
 
 .svg {
@@ -14,4 +14,5 @@
 
 .title {
     height: 10em;
+    margin-bottom: 5em;
 }
