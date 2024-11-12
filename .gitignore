@@ -1,3 +1,12 @@
-/node_modules
-!./node_modules/bootstrap-icons/icons/discord.svg
-!./node_modules/bootstrap-icons/icons/instagram.svg
+# Ignoriere den gesamten node_modules-Ordner
+node_modules/*
+
+# Ausnahme für den bootstrap-icons-Ordner
+!node_modules/bootstrap-icons/
+
+# Ignoriere alle Dateien im bootstrap-icons-Ordner
+node_modules/bootstrap-icons/icons/*
+
+# Ausnahme für bestimmte Icons (Dateien) in bootstrap-icons
+!node_modules/bootstrap-icons/icons/instagram.svg
+!node_modules/bootstrap-icons/icons/discord.svg
